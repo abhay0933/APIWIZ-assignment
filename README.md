@@ -1,8 +1,49 @@
-# React + Vite
+# Text Analyzer Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot 2024-04-21 182339](https://github.com/abhay0933/APIWIZ-assignment/assets/127731916/59b62c6b-953a-4ff2-bde3-8715e24d4553)
 
-Currently, two official plugins are available:
+## Hosted Link - https://apiwiz-assignment-ten.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+The Text Analyzer is a web application built with React.js that allows users to analyze text input in real-time. Users can input any text, and the application provides various metrics such as word count, character count, paragraph count, and punctuation count. Additionally, users can fetch the meaning, antonyms, synonyms, and definitions of a word by making API calls to an external service.
+
+## Features
+
+- Real-time analysis of text input
+- Metrics provided: Word count, character count, paragraph count, punctuation count
+- Word analysis: Meaning, antonyms, synonyms, definitions
+- Responsive design for a seamless user experience on all devices
+
+## Technologies Used
+
+- **React.js**: Frontend JavaScript library for building user interfaces
+- **React Router DOM**: Library for routing in React applications
+- **Fetch API**: Web API for making HTTP requests to fetch data from an external API
+- **WordsAPI**: External API for retrieving word-related information
+
+
+## Usage
+
+1. Input text in the provided text area.
+2. The application will analyze the text in real-time and display metrics below the text area.
+3. Optionally, click on the "Process" button to fetch additional information about a word, such as its meaning, antonyms, synonyms, or definitions.
+4. Explore the various metrics and word analysis features provided by the application.
+
+## API Usage
+
+- The application makes API calls to the WordsAPI to retrieve information about a word.
+- API endpoint: `https://wordsapiv1.p.mashape.com/words/:word`
+- Available endpoints:
+  - Meaning: `/definitions`
+  - Antonyms: `/antonyms`
+  - Synonyms: `/synonyms`
+  - Definitions: `/definitions`
+
+## Acknowledgements
+
+- **WordsAPI**: Special thanks to WordsAPI for providing the word-related information API.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
