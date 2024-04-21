@@ -1,5 +1,7 @@
 # Text Analyzer Application
 
+![ss](https://github.com/abhay0933/APIWIZ-assignment/assets/127731916/fdc8bc3b-db11-40a4-a49e-6518c314f5c9)
+
 ![Screenshot 2024-04-21 182339](https://github.com/abhay0933/APIWIZ-assignment/assets/127731916/59b62c6b-953a-4ff2-bde3-8715e24d4553)
 
 ## Hosted Link - https://apiwiz-assignment-ten.vercel.app/
@@ -40,9 +42,6 @@ The Text Analyzer is a web application built with React.js that allows users to 
   - Synonyms: `/synonyms`
   - Definitions: `/definitions`
 
-## Acknowledgements
-
-- **WordsAPI**: Special thanks to WordsAPI for providing the word-related information API.
 
 ## License
 
